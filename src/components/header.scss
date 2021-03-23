@@ -1,0 +1,29 @@
+
+#navbar-primary .navbar-nav {
+  display: flow-root; 
+    background: brown;
+    width: 100%;
+    margin-bottom: 1.45rem;
+    padding: 1.45rem 1.0875rem;
+    text-align: center;
+    
+    > li {
+      display: inline-block;
+      float: none;
+      > a {
+        text-decoration: none;
+        padding-left: 30px;
+        padding-right: 30px;
+      }
+    }
+  }
+  .container-fluid{
+    display: flow-root; 
+    padding-right: inherit; 
+    padding-left: inherit;
+  }
+  .navbar {
+    
+    padding-top: 0; 
+   
+}

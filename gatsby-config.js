@@ -1,10 +1,38 @@
 module.exports = {
   siteMetadata: {
-    title: `Mal Odmor`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
+    title: `Мал Одмор`,
+     menuLinks: [
+            {
+               id:'home',
+               name:'Почетна',
+               link:'/'
+            },
+            {
+               id: 'about-us',
+               name:'За Нас',
+               link:'/about-us'
+            },
+            {
+              id: 'logo',
+              name: 'logo',
+              link: '/',
+              imageUrl: './images/logoMalOdmor.png/'
+            },
+            {
+              name:'Мени',
+              link:'/menu'
+           },
+           {
+            name:'Контакт',
+            link:'/contact'
+          }
+          ],
+        
+    description: `Home is where the heart is`,
     author: `@gatsbyjs`,
   },
   plugins: [
+    `gatsby-plugin-sass`,
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
@@ -31,5 +59,5 @@ module.exports = {
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
-  ],
+  ]
 }

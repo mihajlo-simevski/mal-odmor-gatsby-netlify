@@ -1,0 +1,16 @@
+
+#navbar-primary .navbar-nav { 
+    background: brown;
+    width: 100%;
+    margin-bottom: 1.45rem;
+    padding: 1.45rem 1.0875rem;
+    text-align: center;
+    > li {
+      display: inline-block;
+      float: none;
+      > a {
+        padding-left: 30px;
+        padding-right: 30px;
+      }
+    }
+  }
