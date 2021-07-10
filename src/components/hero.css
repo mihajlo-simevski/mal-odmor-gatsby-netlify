@@ -1,0 +1,52 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css";
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css";
+
+.videoPresentation {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -20px;
+    padding-bottom: 5rem;
+  }
+  .navbar-item img {
+    width: 100%;
+      max-height: 7.75rem;
+  }
+  
+  .hero.is-info {
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ), url('https://unsplash.it/1200/900?random') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  .hero .nav, .hero.is-success .nav {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+  .hero .subtitle {
+    padding: 3rem 0;
+    line-height: 1.5;
+  }
+  
+  .p-b-sm { padding-bottom: 0.5rem; }
+  .colored-line{
+      display: block;
+      width: 80px;
+      height: 2px;
+      background-color: #654321;
+      margin: auto;
+  }
+  @media all and (max-width: 1087px) {
+    
+  .navbar-end{
+    display: flex;
+      align-items: flex-end;
+      justify-content: center;
+      flex-direction: column;
+  }
+  }

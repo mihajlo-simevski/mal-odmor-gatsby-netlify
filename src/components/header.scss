@@ -1,20 +1,26 @@
 
 #navbar-primary .navbar-nav {
   display: flow-root; 
-    background: brown;
+    
     width: 100%;
     margin-bottom: 1.45rem;
-    padding: 1.45rem 1.0875rem;
-    text-align: center;
+
     
+    text-align: center;
     > li {
+      color: whitesmoke;
+      font-family:'Segoe UI';
+      // background: brown;
       display: inline-block;
       float: none;
+      border-radius:10px;
+      margin: 0 10px;
       > a {
         text-decoration: none;
         padding-left: 30px;
         padding-right: 30px;
       }
+     
     }
   }
   .container-fluid{
@@ -22,8 +28,11 @@
     padding-right: inherit; 
     padding-left: inherit;
   }
-  .navbar {
-    
-    padding-top: 0; 
+
+.navbar {
+  // background: #FDF8C1;
+  background:none;
+  margin-left:-1.45rem;
+    padding: 0 !important; 
    
 }

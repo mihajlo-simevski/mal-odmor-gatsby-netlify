@@ -1,0 +1,32 @@
+[
+    {
+        "title"     :   "Kolenica",
+        "author"    :   "Mihajlo",
+        "image"     :   "./images/kolenica.jpg"
+    },
+    {
+        "title"     :   "Masa Jadenje",
+        "author"    :   "Mihajlo",
+        "image"     :   "./images/masa-jadenje.jpg"
+    }
+    {
+        "title"     :   "Meso Oval",
+        "author"    :   "Mihajlo",
+        "image"     :   "./images/meso-oval.jpg"
+    },
+    {
+        "title"     :   "Rebro vo Furna",
+        "author"    :   "Mihajlo",
+        "image"     :   "./images/rebro-focus.jpg"
+    },
+    {
+        "title"     :   "Isometric clock radio",
+        "author"    :   "Mihajlo",
+        "image"     :   "./images/isometric-clock-radio.jpg"
+    },
+    {
+        "title"     :   "Isometric clock radio",
+        "author"    :   "Mihajlo",
+        "image"     :   "./images/isometric-clock-radio.jpg"
+    }
+]

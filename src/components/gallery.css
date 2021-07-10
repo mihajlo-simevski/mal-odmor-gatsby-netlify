@@ -1,0 +1,34 @@
+.gallery-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.gallery {
+  display: grid;
+  
+  margin-bottom: 1rem;
+
+}
+
+.gallery-header {
+  display: grid;
+  
+  height: 30vh;
+
+}
+
+.gallery-body {
+  display: grid;
+  
+  grid-template-columns: 2fr 2fr 1fr;
+
+}
+
+.gallery-item-large {
+  display: grid;
+}
+
+.gallery-item-small {
+  display: grid;
+}

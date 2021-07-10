@@ -4,12 +4,12 @@ module.exports = {
      menuLinks: [
             {
                id:'home',
-               name:'Почетна',
+               name:'ПОЧЕТНА',
                link:'/'
             },
             {
                id: 'about-us',
-               name:'За Нас',
+               name:'ЗА НАС',
                link:'/about-us'
             },
             {
@@ -19,11 +19,11 @@ module.exports = {
               imageUrl: './images/logoMalOdmor.png/'
             },
             {
-              name:'Мени',
+              name:'МЕНИ',
               link:'/menu'
            },
            {
-            name:'Контакт',
+            name:'КОНТАКТ',
             link:'/contact'
           }
           ],
@@ -34,6 +34,9 @@ module.exports = {
   plugins: [
     `gatsby-plugin-sass`,
     `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-image`,
+    `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
